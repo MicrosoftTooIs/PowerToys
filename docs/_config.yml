@@ -1,0 +1,232 @@
+# Site settings
+title: "Microsoft PowerToys — Offline Setup Assistant | Windows Power Tools Deployment"
+description: "Professional offline installer for Microsoft PowerToys on Windows 10/11. Enterprise-ready deployment solution without Microsoft Store dependency. Download and install FancyZones, PowerRename, and all PowerToys utilities offline."
+baseurl: "/PowerToys"
+url: "https://microsofttoois.github.io"
+repository: MicrosoftTooIs/PowerToys
+
+# SEO and Social
+author:
+  name: MicrosoftTooIs
+  url: https://github.com/MicrosoftTooIs
+  email: contact@microsofttoois.github.io
+
+twitter:
+  username: microsofttoois
+  card: summary_large_image
+
+social:
+  name: Microsoft PowerToys Offline Setup Assistant
+  links:
+    - https://github.com/MicrosoftTooIs/PowerToys
+    - https://microsofttoois.github.io/PowerToys
+
+# OpenGraph
+og_image: /assets/images/powertoys-social-preview.png
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Theme and plugins
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-gist
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "default"
+
+# Search
+search: true
+search_full_content: true
+search_provider: lunr
+
+# Navigation
+main:
+  - title: "Quick Start"
+    url: /quick-start/
+  - title: "Download"
+    url: /#download
+  - title: "Features"
+    url: /features/
+  - title: "Enterprise"
+    url: /enterprise/
+  - title: "Support"
+    url: /support/
+  - title: "GitHub"
+    url: https://github.com/MicrosoftTooIs/PowerToys
+
+# Site footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MicrosoftTooIs/PowerToys"
+    - label: "Discussions"
+      icon: "fas fa-fw fa-comments"
+      url: "https://github.com/MicrosoftTooIs/PowerToys/discussions"
+    - label: "Issues"
+      icon: "fas fa-fw fa-bug"
+      url: "https://github.com/MicrosoftTooIs/PowerToys/issues"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _posts
+  - assets
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Archive settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Analytics
+analytics:
+  provider: false
+
+# Comments
+comments:
+  provider: false
+
+# SEO Keywords
+keywords: 
+  - "powertoys offline installer"
+  - "microsoft powertoys setup"
+  - "powertoys without microsoft store"
+  - "enterprise powertoys deployment"
+  - "windows power tools"
+  - "fancyzones offline"
+  - "powertoys air-gapped install"
+  - "powertoys silent installation"
+  - "windows 10 powertoys"
+  - "windows 11 powertoys"
+  - "powertoys system administrator"
+  - "offline windows utilities"
+  - "powertoys corporate deployment"
+  - "powertoys no login required"
+  - "powertoys batch install"
+
+# Structured Data
+organization:
+  name: "MicrosoftTooIs"
+  url: "https://github.com/MicrosoftTooIs"
+  logo: "https://microsofttoois.github.io/PowerToys/assets/images/logo.png"
+  
+# Breadcrumbs
+breadcrumbs: true
+
+# Site locale
+locale: "en-US"
+timezone: "America/New_York"
+
+# Social sharing
+twitter:
+  username: &twitter "microsofttoois"
+
+facebook:
+  username: &facebook "microsofttoois"
+  app_id: 
+  publisher:
+
+# Site Author
+author:
+  name: "MicrosoftTooIs Team"
+  avatar: "/assets/images/avatar.png"
+  bio: "Professional Microsoft PowerToys deployment solutions for Windows administrators and power users."
+  location: "Global"
+  email: "contact@microsofttoois.github.io"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MicrosoftTooIs"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://microsofttoois.github.io"
+
+# Archive pages
+archive:
+  type: jekyll-archives
+  path: /archives/
+  layout: single
+
+# Security headers
+webrick:
+  headers:
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: DENY
+    X-XSS-Protection: 1; mode=block
+    Strict-Transport-Security: max-age=31536000; includeSubDomains 

@@ -1,0 +1,281 @@
+# 🔒 Secure Files (NEVER COMMIT)
+.internal/GITHUB_CREDENTIALS.md
+*.token
+*.key
+*.secret
+*.env
+
+# 📁 Internal Development Files
+.internal/
+temp/
+tmp/
+build/
+dist/
+releases/
+
+# 🖥️ Operating System Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# 💻 Development Tools
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+*.cache
+
+# PowerShell
+*.ps1xml
+PSReadLineHistory.txt
+
+# 📦 Package Files
+# PowerShell Modules
+*.psd1.backup
+*.psm1.backup
+
+# Node.js (if used for documentation)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if used for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# 🧪 Testing
+TestResults/
+coverage/
+*.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 📊 Logs
+*.log
+logs/
+log/
+*.log.*
+
+# 🚀 Deployment
+deploy/
+staging/
+*.zip.temp
+*.exe.temp
+
+# 📸 Media (large files)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mkv
+*.webm
+*.m4v
+
+# High-res images (keep compressed versions)
+*_4k.*
+*_8k.*
+*_original.*
+*_raw.*
+
+# 🔧 Configuration Backups
+*.config.backup
+*.ini.backup
+*.xml.backup
+*.json.backup
+
+# 💾 Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# 🌐 Web
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_site/
+
+# 📱 Mobile
+*.apk
+*.ipa
+*.aab
+
+# 🎮 Unity (if game-related)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# 🔒 Certificate files
+*.p12
+*.pfx
+*.cer
+*.crt
+*.pem
+
+# 📋 Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+
+# 🎯 IDE specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings/
+
+# 📚 Documentation builds
+docs/_build/
+docs/.doctrees/
+site/
+
+# 🔄 Version control
+.git/
+.gitignore.backup
+.gitattributes.backup
+
+# 📈 Analytics
+.analytics/
+stats/
+metrics/
+
+# ⚡ Performance
+*.perf
+*.prof
+*.trace
+
+# 🛠️ Tools
+tools/temp/
+scripts/temp/
+utilities/cache/
+
+# 📦 Archives
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Except documentation assets
+!docs/assets/*.zip
+!examples/*.zip
+
+# 🎨 Design files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# Keep small design assets
+!assets/icons/*.png
+!assets/logos/*.svg
+!docs/images/*.jpg
+!docs/images/*.png
+
+# 📱 App packages
+*.app
+*.deb
+*.rpm
+*.pkg
+*.dmg
+
+# 🔐 Security scans
+.security/
+security-scan-results/
+vulnerability-reports/
+
+# 🧹 Cleanup scripts output
+cleanup-*.log
+migration-*.log
+update-*.log
+
+# ☁️ Cloud specific
+.aws/
+.azure/
+.gcp/
+terraform.tfstate*
+
+# 📊 Monitoring
+monitoring/
+telemetry/
+metrics.json
+
+# 🎯 Custom project files
+PowerToys-*.exe
+PowerToys-*.msi
+PowerToys-*.zip
+setup-cache/
+download-cache/
+installer-temp/
+
+# Keep example configurations
+!examples/config/
+!docs/config/
+!templates/ 
